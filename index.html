@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>BYRON</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<!--bootstrap css-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<!--google fonts--->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+	<!--font awesome CDN-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!--style.css-->
+	<link rel="stylesheet" href="css/style.css">
+	<!--responsive.css-->
+	<link rel="stylesheet" href="css/responsive.css">
+	<!--AOS-->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<div class="banner">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col col-md-12 p-0">
+						<img src="img/banner.jpg" class="img-fluid" alt="banner-img">
+					</div>
+				</div>
+				<!--social ico-->
+				<div class="row">
+					<div class="col col-md-6">
+						<div class="social_icon">
+							<i class="fab fa-facebook-f"></i>
+							<i class="fab fa-twitter"></i>
+							<i class="fab fa-instagram"></i>
+							<i class="arrow">|</i>
+							<i class="careers">careers</i>
+							<i class="help_desk">help desk</i>
+							<i class="login">login</i>
+						</div>
+					</div>
+				</div>
+				<!--address-->
+				<div class="row">
+					<div class="col">
+						<div class="address">
+							<h6><a href="mailto:ad@gmail.com">ad@gmail.com &nbsp; |</a></h6>
+							<h6>112 N.W.St. 35</h6>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col col-md-12">
+						<div class="desc">
+							<h1>offering multi-disciplinary<br>
+								engineering services
+							</h1>
+							<hr>
+							<h6> we are one of the leading end to end engineering services <br> and solutions. </h6>
+						</div>
+					</div>
+				</div>
+				<div id="banner_btn">
+					<div class="row">
+						<div class="col">
+							<button type="button"class="btn" id="get_started">get started &nbsp;<i class="fas fa-arrow-right"></i></button>
+						</div>
+						<div class="col">
+							<button type="button" id="learn_btn">learn more</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!--nav starts-->
+			<nav>
+				<div class="banner_menu">
+					<div class="container">
+						<div class="row" id="banner_menu">
+							<div class="col-6 col-md-8 p-0">
+								<img src="img/logo.png" class="img-thumbnail" alt="logo">
+
+								<div class="float-end" id="nav">
+									<ul class="nav justify-content-end">
+										<li class="nav-item">
+											<a class="nav-link active"  aria-current="page" href="#">Home</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="#">About</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="#">Services</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="#">Projects</a>
+										</li>
+										
+										<li class="nav-item">
+											<a class="nav-link" href="#">Career</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="#">Contact</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>				
+				</div>
+			</div>
+		</nav>
+		<!--moblile nav-->
+		<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="#">Home</a>
+			<a href="#">About</a>
+			<a href="#">Services</a>
+			<a href="#">Projects</a>
+			<a href="#">Career</a>
+			<a href="#">Contact</a>
+		</div>
+
+		<!-- Use any element to open the sidenav -->
+		<span onclick="openNav()"><i class="fas fa-bars"></i></span>
+
+
+
+
+
+	</header>
+
+	<!--box at the banner-->
+	<div class="container">
+		<div class="row mx-auto">
+			<div class="col col-md-4 mx-auto">
+				<div class="card" style="width: 18rem;">
+					<div data-aos="fade-up"
+					data-aos-duration="1000">
+					<div class="card-body">
+						<h5 class="card-title">industrial <br>automation</h5>
+						<p class="card-text">we have experience serving as clients’
+						single point of contact under a design .</p>
+						<a href="#" class="btn btn-primary">Learn More</a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="col col-md-4 mx-auto">
+			<div class="card" style="width: 18rem;">
+				<div data-aos="fade-up"
+				data-aos-duration="1000">
+				<div class="card-body">
+					<h5 class="card-title">eletrical <br>engineering</h5>
+					<p class="card-text">we have experience serving as clients’
+					single point of contact under a design.</p>
+					<a href="#" class="btn btn-primary">Learn More</a>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="col col-md-4 mx-auto">
+		<div class="card" style="width: 18rem;">
+			<div data-aos="fade-up"
+			data-aos-duration="1000">
+			<div class="card-body">
+				<h5 class="card-title">mechanical engineering </h5>
+				<p class="card-text">we have experience serving as clients’single point of contact under a design .</p>
+				<a href="#" class="btn btn-primary">Learn More</a>
+			</div>
+		</div>
+	</div>
+
+</div>
+</div>
+</div>	
+<div class="clearfix"></div>
+<!--section-->
+<div class="container">
+	<div class="row">
+		<div class="col col-md-6 sm-4 p-0">
+			<div data-aos="fade-right">
+				<img src="img/project.jpg" alt="img" id="byron_img">
+			</div>
+		</div>
+		<div class="col col-md-6 sm-4 p-0" id="byron_desc">
+			<h2 id="serv">byron manufactures</h2>
+			<img src="img/bar.jpg" alt="bar-image" id="bar">
+			<p class="desc">we’re a company leader in manufacturing,
+				exporting, international trading & local
+			supplying services of various commodities.</p>
+			<div class="list">
+				<ul type="square">
+					<li>our goal is manufacture good quality products</li>
+					<li>review functions of equipments and tools.</li>
+					<li>innovative manufacturing methods.</li>
+					<li>A solid experience in iron and soild plants.</li>
+				</ul>
+			</div>
+			<div id="button">
+				<button type="button" class="btn btn-outline-warning">our services</button>		
+			</div>
+		</div>
+	</div>
+</div>
+<div class="clearfix"></div>
+<!--service-->
+<div id="services">
+	<img src="img/service.jpg" class="img-fluid" alt="...">
+	<div class="container-fluid p-0 m-0">
+		<div class="row">
+			<div class="col">
+				<h5>an independent engineering design and services company</h5>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<h2>we speciliaze in the areas of experience and manufacturing </h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<p>we are one of the leading end-to-end engineering services & solutions company offering <br>
+					<span>buisness values across the entire product cycle.</span></p>
+				</div>
+			</div>
+			<button type="button" class="btn btn-primary btn-lg">our projects</button>
+		</div>
+	</div>
+	<div class="clearfix"></div>	
+	<!--section-->
+	<div class="projects">
+		<div class="container">
+			<div class="row mx-auto">
+				<p>our extensive resume is comprised over 3,500 projects completed</p>
+				<h4>our diverse project list includes commercial buildings,
+					manufacturing products and technology 
+				</h4>
+
+				
+
+				<div class="col col-md-4">
+					<img src="img/long_card.jpg" alt="image">
+					
+				</div>
+				
+				<div class="col col-md-4">
+					<img src="img/L_card.jpg" alt="image">
+				</div>
+				<div class="col col-md-4">
+					<img src="img/L_card1.jpg" alt="image">
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<div class="clearfix"></div>
+	<!--subscribe-->
+	<div class="subscribe">
+		<div class="container-fluid p-0 m-0">
+			<div class="row p-0 m-0">
+				<div class="col p-0">
+					<img src="img/subscribe.jpg" alt="image" class="img-fluid">
+					<p>be sure to get the latest exclusive offers, products releases and so much more</p>
+					<h3>sign up and subscribe to our newsletter <br>
+						<span>and get inspired every month</span></h3>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<input type="text" class="form-control" placeholder="Enter Your Email" aria-label="First name">
+					</div>
+					<div class="col">
+						<button type="button" class="btn btn-primary btn-lg" id="btn1">Submit</button>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-6">
+						<h4>we’re leaders in manufacturing solutions <br>
+						and product formulations industry</h4>
+					</div>
+					<div class="col-6">
+						<button type="button" class="btn btn-primary btn-lg" id="btn2">contact us</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="clearfix"></div>
+	
+	<!--footer-->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<img src="img/logo.png">
+					<p class="foo_desc">we have completed over 30,000
+						projects. specilizing in design 
+						build and turnkey construction.
+						we are passionate about design 
+					architecture and construction.</p>
+				</div>
+				<!--industry-->
+				<div class="col-md-3 p-0">
+					<h4 id="foo_title"><b>ABOUT INDUSTRY</b></h4>
+					<ul class="list-unstyled mt-4" id="foo">
+						<li><a href="#" class="text-white">ENGINEERING</a></li>
+						<div class="mb-2"></div>
+						<li><a href="#" class="text-white">Career</a></li>
+						<div class="mb-2"></div>
+						<li><a href="#" class="text-white">Privacy Policy</a></li>
+						<div class="mb-2"></div>
+						<li><a href="#" class="text-white">Terms & Conditions</a></li>
+					</ul>
+				</div>
+				<!--our solution-->
+				<div class="col-md-3 p-0">
+					<h4 id="foo_title1"><b>Our solutions</b></h4>
+					<ul class="list-unstyled mt-4" id="foo1">
+						<li><a href="#" class="text-white">ENGINEERING
+						</a></li>
+						<div class="mb-2"></div>
+						<li><a href="#" class="text-white">lorem</a></li>
+						<div class="mb-2"></div>
+						<li><a href="#" class="text-white">ipsum</a></li>
+						<div class="mb-2"></div>
+						<li><a href="#" class="text-white">industry</a></li>
+					</ul>
+				</div>
+				<!--contact us-->
+				<div class="col-md-3 p-0">
+					<h4 id="foo_title2"><b>Contact us</b></h4>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3682.161615453375!2d88.37130161427511!3d22.6477621359167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89db00bdb809b%3A0xc40753f66f6e6449!2sBonhooghly%20High%20School!5e0!3m2!1sen!2sin!4v1625380289996!5m2!1sen!2sin" 
+					style="border:0;" loading="lazy" id="map"></iframe>
+				</div>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+		<!--Copyright--->					
+		<div class="container">				
+			<div class="row">
+				<div class="copyright">
+					<p><i class="far fa-copyright"></i> &nbsp; 2021 all rights reserved. Designed & developed by anirban das.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!--bootstrap JS-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+	</script>
+	<script src="js/jquery.js"></script>
+	<script>
+		AOS.init();
+	</script>
+
+	<script>
+		function openNav() {
+			document.getElementById("mySidenav").style.width = "100%";
+		}
+
+		
+		function closeNav() {
+			document.getElementById("mySidenav").style.width = "0";
+		}
+
+	</script>
+</body>
+</html>

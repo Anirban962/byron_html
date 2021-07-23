@@ -1,0 +1,365 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+/*contact us button*/
+@media (max-width: 1100px){
+	#btn2{
+		width: auto;		
+	}
+	#map{
+		width: 100% !important;
+		
+	}
+	.subscribe p{
+		left: 17% !important;
+	}
+	.banner_menu{
+		background-color: #fdca00;
+		position: absolute;
+		top: 8%;
+		width: 90%;
+	}
+	.subscribe h3{
+		left: 25%
+	}
+	.img-thumbnail{
+		width: auto !important;
+		margin-left: 10px !important;
+	}
+	#services h2{
+		font-size: 26px;
+		left: 16%;
+	}
+	#services h5{
+		left: 25%;
+	}
+	#services p{
+		left: 20%;
+	}
+	#byron_img{
+		width: 535px;
+	}
+	#bar{
+		margin-top: 0px;
+		height: 100px;
+	}
+	.desc{
+		word-spacing: 2px;
+		margin-top: -20%;
+	}
+	#button{
+		margin-top: -10px;
+		margin-left: 17%;
+	}
+	.desc h1{
+		position: absolute;
+		top: 35%;
+		left: 68px;
+		font-family: 'Open Sans', sans-serif;
+		text-transform: uppercase;
+		font-weight: bold;
+		word-spacing: 20px;
+		font-size: 2.3em;
+		line-height: 70px;
+	}
+	#nav a{
+		font-size: 0.8em !important;		
+	}
+
+	.list ul{
+		line-height: 55px;
+		word-spacing: 2px;
+	}
+	.card-body h5{
+		color: #000000;
+		font-family: 'Lora', serif;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	.card-body p{
+		font-family: 'Lato', sans-serif;
+		text-transform: capitalize;
+		color: #000000;
+		font-size: 16px;
+		word-wrap: break-word;
+	}
+	.project img{
+		height: 60%;
+		margin-top: 30px;
+		width: auto;
+
+	}
+	#foo_title{
+		margin-top: 45%;
+		padding: 0px 10px 0px 6%;
+		font-size: 22px;
+		font-family: 'Lora', serif;
+	}
+	.text-white{
+		font-size: 14px;
+	}
+	#foo_title1{
+		font-size: 22px;
+		padding-left: 10px;
+	}
+	#foo1{
+		padding-left: 8px;
+	}
+	#foo_title2{
+		font-size: 22px;
+	}
+	#foo_title2{
+		margin-top: 45%;
+		text-transform: uppercase;
+		margin-left: 19%;
+		margin-bottom: 20px;
+		font-family: 'Lora', serif;
+	}
+	footer img{
+		width: 180px;
+	}
+}
+
+@media (max-width: 768px){
+	span i{
+		color: white;
+		font-size: 2em;
+		position: absolute;
+		top: 10%;
+		right: 10%;
+		cursor: pointer;
+		display: block !important;
+	}
+	#nav{
+		display: none !important;
+	}
+	.img-thumbnail{
+		width: 40% !important;
+		margin-top: 2.5% !important;
+	}
+	.desc h1{
+		position: absolute;
+		top: 35%;
+		left: 50px;
+		font-family: 'Open Sans', sans-serif;
+		text-transform: uppercase;
+		font-weight: bold;
+		word-spacing: 10px;
+		font-size: 2.3em;
+		line-height: 50px;
+	}
+	.desc hr {
+		height: 4px;
+		width: 200px;
+		color: #fdca00;
+		position: absolute;
+		top: 52%;
+		left: 50px;
+		padding: 0px !important;
+		margin: 0px !important;
+	}
+	.desc h6 {
+		font-family: 'Open Sans', sans-serif;
+		position: absolute;
+		top: 58%;
+		text-transform: uppercase;
+		padding: 0px !important;
+		margin: 0px !important;
+		left: 52px;
+		word-spacing: 2px;
+		line-height: 28px;
+	}
+	.card{
+		width: 14rem !important;
+		padding: 0px !important;
+	}
+	.card-body h5{
+		color: #000000;
+		font-family: 'Lora', serif;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	.card-body p{
+		font-family: 'Lato', sans-serif;
+		text-transform: capitalize;
+		color: #000000;
+		font-size: 9px;
+		
+	}
+	#banner_btn{
+		position: absolute;
+		top: 75%;
+		left: 50px;
+	}
+	.foo_desc{
+	font-size: 16px;
+	margin-left: 1px;
+	}
+	#map{
+		width: 100% !important;		
+	}
+	#foo_title2{
+		text-transform: uppercase;
+		margin-left: 25%;
+		margin-bottom: 20px;
+		font-family: 'Lora', serif;
+		font-size: 22px;
+	}
+	#foo_title{
+		margin-top: 45%;
+		padding: 0px 12px 0px 6% !important;
+		font-size: 22px;
+		font-family: 'Lora', serif;
+	}
+	#serv{
+		font-family: 'Open Sans', sans-serif !important;
+		color: #000000;
+		text-transform: uppercase;
+		margin-left: 17%;
+		margin-top: 15px;
+		padding-bottom: 14px;
+		font-weight: bold;
+	}
+	#byron_img{
+		width: 350px !important;
+	}
+	#byron_desc{
+		margin-top: -18px;
+	}
+	#button button {
+		text-transform: capitalize;
+		width: auto;
+		height: 40px;
+		margin-left: 2px;
+		font-family: 'Lora', serif;
+		font-size: 12px;
+	}
+	#services .img-fluid {
+		height: 400px;
+		padding: 0px !important;
+		margin-top: 20px !important;
+	}
+	#bar{
+		margin-left: 60px;
+		margin-top: -10px;
+		height: 90px;
+		padding-bottom: 20px;
+	}
+	.desc{
+		word-spacing: 2px;
+		margin-top: -24%;
+		font-size: 14px;
+		padding-left: 20px;
+	}
+	.list ul{
+		line-height: 25px;
+		font-size: 14px;
+	}
+	#button{
+		margin-left: 15%;
+	}
+	#button button{
+		text-transform: capitalize;
+		width: 120px;
+		height: 40px;
+		margin-left: 7px;
+		font-family: 'Lora', serif;
+		font-size: 15px;
+	}
+	.arrow,.careers,.help_desk,.login{
+		display: none !important;
+	}
+
+	#nav a{
+		font-size: 0.9em;		
+	}
+	.card-text{
+		margin: 0px !important;
+		padding: 0px !important;
+		font-size: 10px;
+		padding-bottom: 20px !important;
+		word-wrap: break-word;
+	}
+	#services h5{
+		position: absolute;
+		top: 40px;
+		font-size: 18px;
+		left: 15%;
+		text-transform: capitalize;
+		color: #fca600;
+		font-family: 'Lora', serif;
+		word-spacing: 5px;
+	}
+	#services h2{
+		font-family: 'Lora', serif;
+		text-transform: capitalize;
+		position: absolute;
+		top: 90px;
+		left: 10%;
+		color: white;
+		font-size: 20px;
+	}
+	#services p{
+		font-family: 'Lato', sans-serif;
+		text-transform: capitalize;
+		position: absolute;
+		top: 35%;
+		font-size: 14px;
+		text-shadow: 2px 2px 3px black;
+		left: 10%;
+		line-height: 25px;
+		color: white;
+	}
+	.subscribe p{
+		color: #fdca00;
+		position: absolute;
+		top: 10px;
+		left: 10% !important;
+		font-weight: bold;
+		text-transform: capitalize;
+		text-shadow: 2px 2px 5px black;
+		font-size: 16px;
+	}
+	.subscribe h3{
+		position: absolute;
+		top: 17%;
+		left: 12%;
+		font-weight: bold;
+		text-transform: capitalize;
+		font-family: 'Lora', serif;
+		word-spacing: 7px;
+		text-shadow: 2px 2px 5px black;
+		color: white;
+	}
+	#btn1{
+		width: auto !important;
+		background-color: #fdca00;
+		outline: none;
+		border: 0px;
+		position: absolute;
+		top: 40%;
+		left: 53%;
+		padding: 14px;
+		margin: 0px !important;
+		text-transform: uppercase;
+		font-family: 'Lora', serif;
+		font-weight: bold;
+	}
+	footer img{
+		width: 140px !important;
+	}
+
+
+
+}
+
+
+
+
+
+
+
+
+
